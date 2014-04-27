@@ -55,7 +55,7 @@ HashtagCandidate.js
 
 HeaderImage.js
 ==========
-- I : 해당 트윗 작성 유저의 프로필 이미지 보기
+- Ctrl + I : 해당 트윗 작성 유저의 프로필 이미지 보기
 - Shift + I : 해당 트윗 작성 유저의 헤더 이미지 보기
 
 Notify.js
