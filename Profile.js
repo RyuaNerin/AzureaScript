@@ -46,9 +46,13 @@ function profile(id) {
 	var create = "";
 	var fchk = "";
 	var prt = "";
+	var id = "";
 	
 	if (twitter.match('"statuses_count":[ ]*([0-9]+)'))
 		tweet = RegExp.$1;
+	
+	if (twitter.match('"id":[ ]*([0-9]+)'))
+		id = RegExp.$1;
 	
 	if (twitter.match('"followers_count":[ ]*([0-9]+)'))
 		fw = RegExp.$1;
@@ -90,6 +94,7 @@ function profile(id) {
 		prt = "";
 
 	System.alert(fchk + " " + st.user.name + " (@" + st.user.screen_name + ")" + prt +
+	"\nID : " + id +
 	"\n팔로잉 : " + fi +
 	"\n팔로워 : " + fw +
 	"\n트윗수 : " + tweet +

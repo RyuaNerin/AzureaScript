@@ -1,7 +1,7 @@
 // View Header Image
 
-System.addKeyBindingHandler('I'.charCodeAt(0), 1, viewHeader);
-System.addKeyBindingHandler('I'.charCodeAt(0), 2, viewProfile);
+System.addKeyBindingHandler('I'.charCodeAt(0), 1, viewProfile);
+System.addKeyBindingHandler('I'.charCodeAt(0), 2, viewHeader);
 
 function viewProfile(id) {
 	var st = TwitterService.status.get(id);

@@ -27,7 +27,7 @@ System.addKeyBindingHandler('C'.charCodeAt(0), 2,
 
 		var i = 0;
 		for (i = 0; i < status.entities.urls.length; i++)
-			text = text.replace(status.entities.urls[i].display_url, status.entities.urls[i].url);
+			text = text.replace("/" + status.entities.urls[i].display_url + "/g", status.entities.urls[i].url);
 
 		System.clipboard = status.text;
 	}

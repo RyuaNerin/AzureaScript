@@ -20,10 +20,11 @@ TwitterService.userStream.addEventListener('receiveDirectMessage',
 		System.showMessage(message.text, 'DM : ' + message.sender.screen_name, TOAST_MESSAGE);
 	}
 );
-
+/*
 TwitterService.userStream.addEventListener('receiveFavorite',
 	function(source, target, target_object)
 	{
 		System.showMessage(target_object.text, 'Fv : ' + source.screen_name, TOAST_MESSAGE);
 	}
 );
+*/
