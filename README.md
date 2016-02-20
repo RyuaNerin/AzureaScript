@@ -18,10 +18,10 @@
 
 # ExtensionTweet.js
 
-- W : 수동 RT
-- E : 모두에게 멘션
-- R : 한명에게 멘션
-- Ctrl + D : 트윗 삭제
+- `W` : 수동 RT
+- `E` : 모두에게 멘션
+- `R` : 한명에게 멘션
+- `Ctrl` + `D` : 트윗 삭제
 
 # ExtensionView.js
 
